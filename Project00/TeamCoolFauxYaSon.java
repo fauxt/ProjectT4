@@ -19,8 +19,9 @@ public class TeamCool extends Team
         members.add(new SchaperMember("Greg Schaper"));
         members.add(new SchaperMember("Greg Schaper"));
         members.add(new SchaperMember("Greg Schaper"));
-	members.add(new FauxMember("Tim Faux"));
-	members.add(new AndersonMember("Ben Anderson"));
+        members.add(new FauxMember("Tim Faux"));
+        members.add(new AndersonMember("Ben Anderson"));
+        members.add(new AndersonMember("Caelin Finn McCool"));
         // create a new member class for each team member
         // and add it to the team members list
     }
