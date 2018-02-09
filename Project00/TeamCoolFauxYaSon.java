@@ -22,6 +22,7 @@ public class TeamCoolFauxYaSon extends Team
         members.add(new AndersonMember("Ben Anderson"));
         members.add(new McCoolMember("Caelin Finn McCool"));
         // create a new member class for each team member
+	members.add(new NischalMember("Nischal Piya"));
         // and add it to the team members list
     }
 }
