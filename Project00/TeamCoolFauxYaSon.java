@@ -3,25 +3,24 @@ package Project00;
 import java.util.*;
 import Project00.Team;
 import Project00.Member;
-import Project00.SchaperMember;
+import Project00.FauxMember;
+import Project00.AndersonMember;
+import Project00.McCoolMember;
 
 
-public class TeamCool extends Team
+public class TeamCoolFauxYaSon extends Team
 {
-    public TeamCool(String name)
+    public TeamCoolFauxYaSon(String name)
     {
         super(name);
         createTeamMembers();
     }
-
+    
     public void createTeamMembers()
     {
-        members.add(new SchaperMember("Greg Schaper"));
-        members.add(new SchaperMember("Greg Schaper"));
-        members.add(new SchaperMember("Greg Schaper"));
         members.add(new FauxMember("Tim Faux"));
         members.add(new AndersonMember("Ben Anderson"));
-        members.add(new AndersonMember("Caelin Finn McCool"));
+        members.add(new McCoolMember("Caelin Finn McCool"));
         // create a new member class for each team member
         // and add it to the team members list
     }
