@@ -30,9 +30,10 @@ public class Course
     {
         teams.add(new TeamCool("TeamCool"));
         teams.add(new TeamCoolFauxYaSon("TeamCoolFauxYaSon"));
+        teams.add(new TeamCool("TeamNice"));
+        teams.add(new TeamThree("TeamThree"));
         // create each new team and add to team list;
         // Repository owner will do this.
     }
 
 }
-
